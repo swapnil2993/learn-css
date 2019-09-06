@@ -147,11 +147,23 @@ body {
       .side-nav__link:link, .side-nav__link:visited {
         justify-content: center;
         padding: 2rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .side-nav__link:link, .side-nav__link:visited {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem 0.5rem; } }
   .side-nav__icon {
     width: 1.75rem;
     height: 1.75rem;
     margin-right: 2rem;
     fill: #faf9f9; }
+    @media only screen and (max-width: 37.5em) {
+      .side-nav__icon {
+        margin-right: 0rem;
+        margin-bottom: 0.7rem;
+        width: 1.5rem;
+        height: 1.5rem; } }
 
 .legal {
   font-size: 1.2rem;
@@ -178,6 +190,10 @@ body {
     padding: 1.5rem 3rem;
     text-transform: uppercase;
     letter-spacing: 1px; }
+    @media only screen and (max-width: 37.5em) {
+      .overview__heading {
+        font-size: 1.8rem;
+        padding: 1.25rem 2rem; } }
   .overview__stars {
     margin-right: auto;
     display: flex; }
@@ -201,14 +217,23 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
+    @media only screen and (max-width: 37.5em) {
+      .overview__rating {
+        padding: 1rem 1.5rem; } }
   .overview__rating-average {
     font-size: 2.25rem;
     font-weight: 300;
     margin-bottom: 3px; }
+    @media only screen and (max-width: 37.5em) {
+      .overview__rating-average {
+        font-size: 1.8rem; } }
   .overview__rating-count {
     font-size: .8rem;
     font-weight: 300;
     text-transform: uppercase; }
+    @media only screen and (max-width: 37.5em) {
+      .overview__rating-count {
+        font-size: 0.7rem; } }
 
 .btn-inline {
   border: none;
@@ -275,6 +300,10 @@ body {
   margin-bottom: 3.5rem;
   overflow: hidden;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06); }
+  @media only screen and (max-width: 56.25em) {
+    .review {
+      padding: 2rem;
+      margin-bottom: 3rem; } }
   .review__text {
     margin-bottom: 1.3rem;
     z-index: 10;
@@ -282,6 +311,8 @@ body {
   .review__user {
     display: flex;
     align-items: center; }
+  .review__friends {
+    display: flex; }
   .review__photo {
     height: 4.5rem;
     width: 4.5rem;
@@ -313,11 +344,17 @@ body {
 .cta {
   padding: 3.5rem 0;
   text-align: center; }
+  @media only screen and (max-width: 56.25em) {
+    .cta {
+      padding: 2.75rem 0; } }
   .cta__book-now {
     font-size: 2rem;
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 2.5rem; }
+    @media only screen and (max-width: 56.25em) {
+      .cta__book-now {
+        font-size: 1.5rem; } }
 
 .btn {
   font-size: 1.5rem;
@@ -362,6 +399,13 @@ body {
   padding: 4.5rem;
   background-color: #f4f2f2;
   border-bottom: 1px solid #f4f2f2; }
+  @media only screen and (max-width: 56.25em) {
+    .detail {
+      padding: 3rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .detail {
+      flex-direction: column;
+      align-items: center; } }
 
 .description {
   flex: 0 0 60%;
@@ -370,6 +414,14 @@ body {
   font-size: 1.3rem;
   padding: 4.5rem;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06); }
+  @media only screen and (max-width: 56.25em) {
+    .description {
+      padding: 3rem;
+      margin-right: 1.5rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .description {
+      margin-right: 0rem;
+      margin-bottom: 3rem; } }
 
 .user-reviews {
   flex: 1;
