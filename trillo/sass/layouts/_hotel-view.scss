@@ -20,3 +20,11 @@
   padding: 4.5rem;
   box-shadow:0 2rem 5rem rgba(0,0,0, 0.06);
 }
+
+.user-reviews {
+  flex: 1;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

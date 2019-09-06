@@ -327,14 +327,6 @@
     margin-right: auto;
   }
 }
- 
-.user-reviews {
-  flex: 1;
-  font-size: 1.3rem;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
 
 .review{
   background-color: #fff;
@@ -392,6 +384,40 @@
     font-size: 20rem;
     color: $color-light-grey-2;
     font-family: sans-serif;
+  }
+}
+
+.cta {
+  padding: 3.5rem 0;
+  text-align: center;
+
+  &__book-now {
+      font-size: 2rem;
+      font-weight: 300;
+      text-transform: uppercase;
+      margin-bottom: 2.5rem;
+  }
+}
+
+.btn {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-radius: 100px;
+  border: none;
+  background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 1.5rem 2rem; 
+  transition: all .2s;
+
+  &:hover {
+      background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+  }
+  &:focus {
+      outline: none;    
   }
 }
 
